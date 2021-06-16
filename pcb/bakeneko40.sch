@@ -1023,7 +1023,7 @@ U 1 1 60DB0040
 P 2650 6950
 F 0 "MX44" H 2683 7173 60  0000 C CNN
 F 1 "MX-NoLED" H 2683 7099 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2.25U-NoLED" H 2025 6925 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2.25U-ReversedStabilizers-NoLED" H 2025 6925 60  0001 C CNN
 F 3 "" H 2025 6925 60  0001 C CNN
 	1    2650 6950
 	1    0    0    -1  
@@ -1047,7 +1047,7 @@ U 1 1 60DB004D
 P 3150 6950
 F 0 "MX45" H 3183 7173 60  0000 C CNN
 F 1 "MX-NoLED" H 3183 7099 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2.75U-NoLED" H 2525 6925 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2.75U-ReversedStabilizers-NoLED" H 2525 6925 60  0001 C CNN
 F 3 "" H 2525 6925 60  0001 C CNN
 	1    3150 6950
 	1    0    0    -1  
@@ -2253,18 +2253,29 @@ Wire Wire Line
 Text GLabel 10200 3850 2    50   Input ~ 0
 MISO
 Wire Wire Line
-	9500 1750 9600 1750
+	9400 1750 9400 1600
+Text GLabel 10200 3950 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	8750 1900 7200 1900
+Wire Wire Line
+	7200 1900 7200 1300
+Connection ~ 8750 1900
+Wire Wire Line
+	8750 1900 8750 2050
+NoConn ~ 10200 2350
+NoConn ~ 10200 2750
 Wire Wire Line
 	9400 1750 9500 1750
 Wire Wire Line
-	9050 4550 9400 4550
+	9500 1750 9600 1750
+Connection ~ 9500 1750
+Connection ~ 9400 1750
 Wire Wire Line
 	9400 4550 9500 4550
-Connection ~ 9400 4550
-Connection ~ 9400 1750
-Connection ~ 9500 1750
 Wire Wire Line
-	9400 1750 9400 1600
+	9050 4550 9400 4550
+Connection ~ 9400 4550
 $Comp
 L MCU_Microchip_ATmega:ATmega32U2-MU U1
 U 1 1 61511704
@@ -2276,13 +2287,4 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" H 9500 3150 50
 	1    9500 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 10200 3950 2    50   Input ~ 0
-SCK
-Wire Wire Line
-	8750 1900 7200 1900
-Wire Wire Line
-	7200 1900 7200 1300
-Connection ~ 8750 1900
-Wire Wire Line
-	8750 1900 8750 2050
 $EndSCHEMATC

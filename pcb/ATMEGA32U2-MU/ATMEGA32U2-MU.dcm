@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ATMEGA32U2-MU
-D Microchip ATMEGA32U2-MU, 8bit AVR Microcontroller, 16MHz, 32 kB Flash, 32-Pin QFN
-K
-F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
-$ENDCMP
-#
-#End Doc Library

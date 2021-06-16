@@ -1,0 +1,37 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,"Unpolarized capacitor, small symbol",C_Small,C6 C7,22pF,C_0805_2012Metric,2,~
+2,"Unpolarized capacitor, small symbol",C_Small,C2 C3 C4,0.1uF,C_0805_2012Metric,3,~
+3,"Unpolarized capacitor, small symbol",C_Small,C1,1uF,C_0805_2012Metric,1,~
+4,"Unpolarized capacitor, small symbol",C_Small,C5,10uF,C_0805_2012Metric,1,~
+5,"Diode, small symbol",D_Small,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D41 D42 D43 D44 D45 D46 D47 D48 D49,SOD-123,D_SOD-123,49,~
+6,"Resettable fuse, polymeric positive temperature coefficient, small symbol",Polyfuse_Small,F1,500mA,Fuse_1206_3216Metric,1,~
+7,Atmel 6-pin ISP connector,AVR-ISP-6,J2,AVR-ISP-6,Reset_Pretty-Mask,1, ~
+8,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J1,JST SH 4-pin,JST-SR-4,1,~
+9,,MX-NoLED,MX1 MX2 MX3 MX4 MX5 MX6 MX7 MX8 MX9 MX10 MX11 MX12 MX13 MX14 MX16 MX17 MX18 MX19 MX20 MX21 MX22 MX23 MX24 MX25 MX26 MX29 MX30 MX31 MX32 MX33 MX34 MX35 MX36 MX37 MX38 MX40 MX49,MX-NoLED,MXOnly-1U-NoLED,37,
+10,,MX-NoLED,MX15 MX39 MX41 MX43 MX46 MX48,MX-NoLED,MXOnly-1.25U-NoLED,6,
+11,,MX-NoLED,MX27 MX28,MX-NoLED,MXOnly-1.75U-NoLED,2,
+12,,MX-NoLED,MX42 MX47,MX-NoLED,MXOnly-1.5U-NoLED,2,
+13,,MX-NoLED,MX44,MX-NoLED,MXOnly-2.25U-ReversedStabilizers-NoLED,1,
+14,,MX-NoLED,MX45,MX-NoLED,MXOnly-2.75U-ReversedStabilizers-NoLED,1,
+15,"Resistor, small symbol",R_Small,R2 R3,22,R_0805_2012Metric,2,~
+16,"Resistor, small symbol",R_Small,R1 R4,10k,R_0805_2012Metric,2,~
+17,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SKQG-1155865,1,~
+18,"16MHz, 32kB Flash, 1kB SRAM, 1kB EEPROM, QFN-32",ATmega32U2-MU,U1,ATmega32U2-MU,QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+19,"ESD Protection Diodes with Low Clamping Voltage, SOT-23-6",SRV05-4,U2,SRV05-4,SOT-23-6,1,http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
+20,"Four pin crystal, GND on pins 2 and 4, small symbol",Crystal_GND24_Small,Y1,16MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,~
+
+
+
+
+
+Component Groups:,20
+Component Count:,116
+Fitted Components:,116
+Number of PCBs:,1
+Total components:,116
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,Tue 15 Jun 2021 11:41:01 PM KST
+Schematic Source:,bakeneko40.sch
+KiCad Version:,Eeschema 5.1.10
