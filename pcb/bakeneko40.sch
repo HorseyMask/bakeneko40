@@ -1252,8 +1252,6 @@ Text GLabel 7200 1100 2    50   Input ~ 0
 MOSI
 Text GLabel 7200 1200 2    50   Input ~ 0
 SCK
-Text GLabel 10200 3750 2    50   Input ~ 0
-MOSI
 $Comp
 L Power_Protection:SRV05-4 U2
 U 1 1 614D525B
@@ -2174,35 +2172,29 @@ Text GLabel 6800 3850 1    50   Input ~ 0
 COL6
 Text GLabel 7800 3850 1    50   Input ~ 0
 COL7
-Text GLabel 10200 2450 2    50   Input ~ 0
-ROW1
-Text GLabel 10200 2250 2    50   Input ~ 0
-ROW2
-Text GLabel 10200 2550 2    50   Input ~ 0
+Text GLabel 10200 3150 2    50   Input ~ 0
 ROW3
-Text GLabel 10200 2650 2    50   Input ~ 0
+Text GLabel 10200 3050 2    50   Input ~ 0
 ROW4
-Text GLabel 10200 3350 2    50   Input ~ 0
+Text GLabel 10200 2450 2    50   Input ~ 0
 ROW5
-Text GLabel 10200 2150 2    50   Input ~ 0
-ROW6
-Text GLabel 10200 3550 2    50   Input ~ 0
+Text GLabel 10200 2350 2    50   Input ~ 0
 ROW7
-Text GLabel 10200 3650 2    50   Input ~ 0
+Text GLabel 10200 2250 2    50   Input ~ 0
 ROW8
-Text GLabel 10200 4050 2    50   Input ~ 0
+Text GLabel 10200 2150 2    50   Input ~ 0
 COL1
-Text GLabel 10200 4150 2    50   Input ~ 0
+Text GLabel 10200 2950 2    50   Input ~ 0
 COL2
 Text GLabel 10200 2050 2    50   Input ~ 0
 COL3
-Text GLabel 10200 3250 2    50   Input ~ 0
+Text GLabel 10200 4150 2    50   Input ~ 0
 COL4
-Text GLabel 10200 3150 2    50   Input ~ 0
+Text GLabel 10200 4050 2    50   Input ~ 0
 COL5
-Text GLabel 10200 3050 2    50   Input ~ 0
+Text GLabel 10200 3950 2    50   Input ~ 0
 COL6
-Text GLabel 10200 2950 2    50   Input ~ 0
+Text GLabel 10200 3850 2    50   Input ~ 0
 COL7
 Connection ~ 1800 6050
 Wire Wire Line
@@ -2250,11 +2242,11 @@ Wire Wire Line
 Connection ~ 7300 6050
 Wire Wire Line
 	10200 4250 10550 4250
-Text GLabel 10200 3850 2    50   Input ~ 0
+Text GLabel 10200 2750 2    50   Input ~ 0
 MISO
 Wire Wire Line
 	9400 1750 9400 1600
-Text GLabel 10200 3950 2    50   Input ~ 0
+Text GLabel 10200 2550 2    50   Input ~ 0
 SCK
 Wire Wire Line
 	8750 1900 7200 1900
@@ -2263,8 +2255,6 @@ Wire Wire Line
 Connection ~ 8750 1900
 Wire Wire Line
 	8750 1900 8750 2050
-NoConn ~ 10200 2350
-NoConn ~ 10200 2750
 Wire Wire Line
 	9400 1750 9500 1750
 Wire Wire Line
@@ -2287,4 +2277,14 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" H 9500 3150 50
 	1    9500 3150
 	1    0    0    -1  
 $EndComp
+Text GLabel 10200 3250 2    50   Input ~ 0
+ROW1
+Text GLabel 10200 2650 2    50   Input ~ 0
+MOSI
+NoConn ~ 10200 3650
+Text GLabel 10200 3550 2    50   Input ~ 0
+ROW6
+Text GLabel 10200 3350 2    50   Input ~ 0
+ROW2
+NoConn ~ 10200 3750
 $EndSCHEMATC

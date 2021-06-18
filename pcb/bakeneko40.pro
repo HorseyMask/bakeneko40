@@ -1,4 +1,4 @@
-update=Wed 16 Jun 2021 11:00:51 PM KST
+update=Fri 18 Jun 2021 05:33:04 PM KST
 version=1
 last_client=kicad
 [general]
@@ -31,8 +31,8 @@ MinHoleToHole=0.25
 TrackWidth1=0.254
 ViaDiameter1=0.8
 ViaDrill1=0.4
-dPairWidth1=0.2
-dPairGap1=0.25
+dPairWidth1=0.254
+dPairGap1=0.2
 dPairViaGap1=0.25
 SilkLineWidth=0.15
 SilkTextSizeV=1
@@ -233,8 +233,8 @@ ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.254
+dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Edge
