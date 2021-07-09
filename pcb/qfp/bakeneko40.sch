@@ -2255,14 +2255,10 @@ Wire Wire Line
 Connection ~ 8750 1900
 Wire Wire Line
 	8750 1900 8750 2050
-Text GLabel 10200 3250 2    50   Input ~ 0
-ROW1
 Text GLabel 10200 2650 2    50   Input ~ 0
 MOSI
 Text GLabel 10200 3750 2    50   Input ~ 0
 ROW6
-Text GLabel 10200 3350 2    50   Input ~ 0
-ROW2
 Wire Wire Line
 	9050 4550 9400 4550
 $Comp
@@ -2287,4 +2283,8 @@ Wire Wire Line
 Connection ~ 9400 4550
 NoConn ~ 10200 3550
 NoConn ~ 10200 2950
+Text GLabel 10200 3350 2    50   Input ~ 0
+ROW1
+Text GLabel 10200 3250 2    50   Input ~ 0
+ROW2
 $EndSCHEMATC
