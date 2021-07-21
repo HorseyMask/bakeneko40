@@ -15,6 +15,6 @@
 	{ K16, K18, K20, K22, K24, K26, KC_NO}, \
 	{ K28, K30, K32, K34, K36, K38, K40 }, \
 	{ K29, K31, K33, K35, K37, K39, KC_NO }, \
-	{ K41, K43, K45, K47, K49, KC_NO, KC_NO }, \
-	{ K42, K44, K46, K48, KC_NO, KC_NO, KC_NO } \
+	{ K41, K43, KC_NO, K45, KC_NO, K47, K49 }, \
+	{ K42, KC_NO, K44, KC_NO, K46, K48, KC_NO } \
 }
