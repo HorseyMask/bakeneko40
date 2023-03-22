@@ -1,9 +1,10 @@
 # bakeneko40
+
+## On Hold / WIP. Nothing here works (probably), please don't actually try to make this
+
+### Do have interest in working on this again, but still consider this on hold until further work is done.
+
 40% verison of the bakenkeo40 keyboard by kkatano. 
-
-Changed to be a public repo, but still in WIP. 
-
-Project in semi-pause as I will be fufilling military duties and therefore not be present to work on this.
 
 PCB is still in testing and unconfirmed to work, but otherwise project is mostly done.
 
